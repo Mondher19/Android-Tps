@@ -1,0 +1,21 @@
+name: Build
+
+on:
+  repository_dispatch:
+    types: [build]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+
+    - name: Build with Gradle
+      run: |
+        ./gradlew ${{ github.event.inputs.build_command }}
