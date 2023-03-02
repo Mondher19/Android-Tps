@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@color/colorPrimary"
+
+    android:elevation="5dp"
+    app:subtitleTextColor="#000000">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@color/colorPrimary"
+        android:elevation="8dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@color/design_default_color_background"
+        app:itemRippleColor="#DF0808"
+        app:itemTextColor="@color/colorPrimary"
+        app:layout_anchor="@id/toolbar"
+        app:layout_anchorGravity="end"
+        app:menu="@menu/bottom_navigation_menu" />
+</androidx.appcompat.widget.Toolbar>
