@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="394dp"
+        android:layout_height="184dp"
+
+        android:foregroundGravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageViewedu"
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+
+                    android:foreground="@drawable/gradient_background"
+                    android:foregroundGravity="center_vertical|center"
+
+
+                    app:srcCompat="@drawable/ic_logo_harvard" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="-130dp"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/startdatedu"
+                        android:layout_width="114dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|end"
+                        android:text="12/12/2022"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/enddatedu"
+                        android:layout_width="124dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="15/12/2023"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="402dp"
+                    android:layout_height="29dp"
+                    android:layout_marginTop="-50dp"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/placeedu"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="oxford"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cuntryedu"
+                        android:layout_width="155dp"
+                        android:layout_height="wrap_content"
+                        android:text="united kingdom"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

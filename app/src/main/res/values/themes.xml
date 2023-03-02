@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Cvv2Part3" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryLight</item>
+        <item name="colorOnPrimary">@color/colorPrimaryLight</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondaryLight</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryLight</item>
+        <item name="colorOnSecondary">@color/colorSecondaryLight</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Cvv2Part3.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Cvv2Part3.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Cvv2Part3.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
